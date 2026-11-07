@@ -1,0 +1,29 @@
+{
+  "appId": "com.dhinchaktv.app",
+  "appName": "Dhinchak TV",
+  "webDir": "www",
+  "server": {
+    "url": "https://dhinchaktv.pages.dev/user.html",
+    "cleartext": true,
+    "allowNavigation": [
+      "dhinchaktv.pages.dev",
+      "*.pages.dev",
+      "*.firebaseio.com",
+      "*.firebasestorage.app",
+      "api.themoviedb.org",
+      "image.tmdb.org",
+      "multiembed.mov",
+      "*.multiembed.mov",
+      "autoembed.co",
+      "*.autoembed.co",
+      "vidsrc.cc",
+      "*.vidsrc.cc",
+      "*"
+    ]
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  }
+}
